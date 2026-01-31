@@ -1,0 +1,19 @@
+{
+  "name": "lemonsqueezy-admin",
+  "version": "1.0.0",
+  "description": "Lemon Squeezy Admin CLI. Check orders, subscriptions, and customers.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
